@@ -1,0 +1,16 @@
+{
+    "name": ":package_name",
+    "type": "pxcms-module",
+    "description": ":module_name Module for PhoenixCMS",
+    "license": "MIT",
+    "authors": [
+        { "name": ":author_username", "email": ":author_email " }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers"               : "dev-master",
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/cysha/installers" }
+    ]
+}

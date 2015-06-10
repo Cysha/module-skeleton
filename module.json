@@ -1,0 +1,23 @@
+{
+    "name": ":module_name",
+    "alias": ":module_name_lower",
+    "description": ":module_name Module for Phoenix CMS",
+    "authors": [
+        { "name": ":author_username (:author_name)", "email": ":author_email" }
+    ],
+    "keywords": [
+    ],
+    "version": "v1.0.0",
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Cms\\Modules\\:module_name\\Providers\\:module_nameModuleServiceProvider",
+        "Cms\\Modules\\:module_name\\Providers\\:module_nameEventsProvider",
+        "Cms\\Modules\\:module_name\\Providers\\:module_nameRoutingProvider"
+    ],
+    "aliases": {
+    },
+    "files": [
+        "helpers.php"
+    ]
+}
