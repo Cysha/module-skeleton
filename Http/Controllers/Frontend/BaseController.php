@@ -1,4 +1,4 @@
-<?php namespace Cms\Modules\:module_name\Http\Controllers\Frontend;
+<?php namespace Cms\Modules\%module_name\Http\Controllers\Frontend;
 
 use Cms\Modules\Core\Http\Controllers\BaseFrontendController;
 

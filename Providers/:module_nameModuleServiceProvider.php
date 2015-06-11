@@ -1,8 +1,8 @@
-<?php namespace Cms\Modules\:module_name\Providers;
+<?php namespace Cms\Modules\%module_name\Providers;
 
 use Cms\Modules\Core\Providers\BaseModuleProvider;
 
-class :module_nameModuleServiceProvider extends BaseModuleProvider
+class %module_nameModuleServiceProvider extends BaseModuleProvider
 {
 
     /**
@@ -11,7 +11,7 @@ class :module_nameModuleServiceProvider extends BaseModuleProvider
      * @var array
      */
     protected $middleware = [
-        ':module_name' => [
+        '%module_name' => [
         ],
     ];
 
@@ -21,7 +21,7 @@ class :module_nameModuleServiceProvider extends BaseModuleProvider
      * @var array
      */
     protected $commands = [
-        ':module_name' => [
+        '%module_name' => [
         ],
     ];
 

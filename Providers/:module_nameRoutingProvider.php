@@ -1,13 +1,13 @@
-<?php namespace Cms\Modules\:module_name\Providers;
+<?php namespace Cms\Modules\%module_name\Providers;
 
 use Cms\Modules\Core\Providers\CmsRoutingProvider;
 use Illuminate\Routing\Router;
-use Cms\Modules\:module_name;
+use Cms\Modules\%module_name;
 
-class :module_nameRoutingProvider extends CmsRoutingProvider
+class %module_nameRoutingProvider extends CmsRoutingProvider
 {
 
-    protected $namespace = 'Cms\Modules\:module_name\Http\Controllers';
+    protected $namespace = 'Cms\Modules\%module_name\Http\Controllers';
 
     /**
      * @return string

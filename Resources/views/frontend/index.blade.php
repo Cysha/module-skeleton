@@ -1,1 +1,1 @@
-<p>Module :module_name Spawned.</p>
+<p>Module %module_name Spawned.</p>

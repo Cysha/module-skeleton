@@ -1,4 +1,4 @@
-<?php namespace Cms\Modules\:module_name\Http\Controllers\Backend;
+<?php namespace Cms\Modules\%module_name\Http\Controllers\Backend;
 
 use Cms\Modules\Core\Http\Controllers\BaseBackendController;
 
@@ -9,7 +9,7 @@ class BaseController extends BaseBackendController
     {
         parent::boot();
 
-        $this->theme->setTitle(':module_name_lower');
+        $this->theme->setTitle('%module_name_lower');
     }
 
 }

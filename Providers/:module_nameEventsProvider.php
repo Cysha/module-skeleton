@@ -1,9 +1,9 @@
-<?php namespace Cms\Modules\:module_name\Providers;
+<?php namespace Cms\Modules\%module_name\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Cms\Modules\Core\Providers\BaseEventsProvider;
 
-class :module_nameEventsProvider extends BaseEventsProvider
+class %module_nameEventsProvider extends BaseEventsProvider
 {
     /**
      * The event handler mappings for the application.

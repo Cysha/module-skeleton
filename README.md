@@ -1,6 +1,6 @@
-# PXCMS-:module_name
+# PXCMS-%module_name
 
-:module_name Module for [Phoenix CMS](https://github.com/cysha/PhoenixCMS)
+%module_name Module for [Phoenix CMS](https://github.com/cysha/PhoenixCMS)
 
 ---
 
@@ -8,7 +8,7 @@
 
 To install this module, you can run
 
-> `composer require :package_name`
+> `composer require %package_name`
 
 
 
