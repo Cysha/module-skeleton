@@ -9,7 +9,7 @@ class BaseModel extends CoreBaseModel
     {
         parent::__construct();
 
-        $prefix = config('cms.%module_name.config.table-prefix', '%module_name_');
+        $prefix = config('cms.%module_name_lower.config.table-prefix', '%module_name_lower_');
         $this->table = $prefix.$this->table;
     }
 
