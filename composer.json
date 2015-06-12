@@ -4,7 +4,7 @@
     "description": "%module_name Module for PhoenixCMS",
     "license": "MIT",
     "authors": [
-        { "name": "%author_username", "email": "%author_email " }
+        { "name": "%author_username", "email": "%author_email" }
     ],
     "minimum-stability": "dev",
     "require": {
