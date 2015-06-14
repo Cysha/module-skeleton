@@ -26,6 +26,16 @@ class %module_nameModuleServiceProvider extends BaseModuleProvider
     ];
 
     /**
+     * Register view composers
+     *
+     * @var array
+     */
+    protected $composers = [
+        '%module_name' => [
+        ],
+    ];
+
+    /**
      * Register repository bindings to the IoC
      *
      * @var array
