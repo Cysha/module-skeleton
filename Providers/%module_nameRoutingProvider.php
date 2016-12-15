@@ -33,9 +33,9 @@ class %module_nameRoutingProvider extends CmsRoutingProvider
         return __DIR__ . '/../Http/routes-api.php';
     }
 
-    public function boot(Router $router)
+    public function boot()
     {
-        parent::boot($router);
+        parent::boot();
 
     }
 }
